@@ -68,9 +68,19 @@ body {
 
 .liberty {
   margin-top: 10rem;
-  margin-left: 12rem;
-  margin-right: -5rem;
+  margin-left: 6rem;
+  margin-right: -3rem;
   animation: shakeY;
   animation-duration: 15s;
   animation-iteration-count: infinite;
+}
+
+.foot {
+  font-family: 'Roboto slab', serif;
+  background-color: #d3504c;
+  text-shadow: none;
+}
+
+.white {
+  color: #fefefe;
 }
