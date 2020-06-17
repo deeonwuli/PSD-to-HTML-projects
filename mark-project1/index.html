@@ -6,8 +6,11 @@
     <meta name="description" content="">
     <title>PSD to HTML</title>
     <link href="style.css" rel="stylesheet">
+    <script src="script.js"></script>
     <link href="../css/bootstrap.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
     <script src="https://kit.fontawesome.com/71f145e8c9.js" crossorigin="anonymous"></script>
     <style>
       .bd-placeholder-img {
@@ -27,38 +30,68 @@
     </style>
   </head>
 
-  <body class="text-center">
-    <div class="icons">
-      <div class="column col-xs-3" id="sidebar">
-        <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="dark-blue-text">
-            <i class="fas fa-bars fa-1x"></i>
-          </span>
-        </button>
-        <ul>
-          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-          <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-          <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-          <li><a href="#"><i class="fas fa-basketball-ball"></i></a></li>
-          <li><a href="#"><i class="fas fa-search"></i></a></li>
+  <body>
+    <div class="jumbotron jumbotron-fluid text-center">
+        <div class="icons">
+            <div class="column col-xs-3" id="sidebar">
+              <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="dark-blue-text">
+                  <i class="fas fa-bars fa-1x"></i>
+                </span>
+              </button>
+              <ul>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fas fa-basketball-ball"></i></a></li>
+                <li><a href="#"><i class="fas fa-search"></i></a></li>
+              </ul>
+            </div>
+        </div>
+
+        <div class="container d-flex align-items-center h-100 mx-auto cover px-5">
+            <div class="row">
+               <div class="col-xs">
+                    <h1 class="cover-heading"><span style= color:#b7332f>Mark:</span> responsive, professional PSD template.</h1>
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure.</p>
+               </div>
+            </div>
+         </div>
+    </div>
+ 
+    <div class="row position-relative overflow-hidden p-3 p-md-5 m-md-3">
+      <div class="liberty col d-none d-md-block">
+        <img class="img-fluid" src="assets/liberty.png">
+      </div>
+      <div class="col">
+        <h3>Introducing <span style= "color:#b7332f; text-decoration: underline;">Mark</span></h3><br>
+        <p style="padding-left: 4.6em;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <ul class="fa-ul">
+          <li>
+            <span class="fa-li" style="color: #b7332f; padding-left: 1.75em;"><i class="fas fa-check-square"></i></span><p style="color: #b7332f; padding-left: 2em;">Nunc et mauris mi. Suspendisse potenti.</p>
+            <p style="padding-left: 2em;">Curabitur eu magna vel massa laoreet condimentum. Cras vulputate pellentesque velit, non scelerisque nenque portitor ac.</p>
+          </li>
+        </ul>
+        <ul class="fa-ul">
+          <li>
+            <span class="fa-li" style="color: #b7332f; padding-left: 2em;"><i class="fas fa-check-square"></i></span><p style="color: #b7332f; padding-left: 2em;">Curabitur finibus congue metus, eu facilisis nisi fringilla viverra.</p>
+            <p style="padding-left: 2em;">Curabitur eu magna vel massa laoreet condimentum. Cras vulputate pellentesque velit, non scelerisque nenque portitor ac.</p>
+          </li>
+        </ul>
+        <ul class="fa-ul">
+          <li>
+            <span class="fa-li" style="color: #b7332f; padding-left: 2em;"><i class="fas fa-check-square"></i></span><p style="color: #b7332f; padding-left: 2em;">Aenean peilentesque facilisis est quis dignissim.</p>
+            <p style="padding-left: 2em;">Curabitur eu magna vel massa laoreet condimentum. Cras vulputate pellentesque velit, non scelerisque nenque portitor ac.</p>
+          </li>
         </ul>
       </div>
     </div>
 
-    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-      <header class="masthead mb-auto">
-        <div class="inner">
-          
-        </div>
-      </header>
-    
-      <main role="main" class="inner cover">
-        <h1 class="cover-heading"><span style= color:#b7332f>Mark:</span> responsive, professional PSD template.</h1>
-        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
-      </main>
+    <br>
+    <br>
 
-      <nav class="navbar fixed-bottom navbar-expand-sm navbar-light bg-light">
+    <nav class="navbar fixed-bottom navbar-expand-sm navbar-light bg-light">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -90,12 +123,7 @@
             </li>
           </ul>
         </div>
-      </nav>
-
-      <footer class="mastfoot mt-auto">
-        <div class="inner">
-        </div>
-      </footer>
+    </nav>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   </body>
